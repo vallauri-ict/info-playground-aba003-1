@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Esercio 01 - Prova database/1.0.0": {
+        "runtime": {
+          "Esercio 01 - Prova database.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Esercio 01 - Prova database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
