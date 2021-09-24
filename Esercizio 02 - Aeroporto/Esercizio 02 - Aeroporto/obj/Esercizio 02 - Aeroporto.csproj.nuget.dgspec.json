@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matte\\Desktop\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj": {}
+    "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matte\\Desktop\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj": {
+    "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matte\\Desktop\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj",
+        "projectUniqueName": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj",
         "projectName": "Esercizio 02 - Aeroporto",
-        "projectPath": "C:\\Users\\matte\\Desktop\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj",
+        "projectPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto.csproj",
         "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matte\\Desktop\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\obj\\",
+        "outputPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 02 - Aeroporto\\Esercizio 02 - Aeroporto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
