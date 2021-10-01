@@ -1,26 +1,5 @@
-﻿/* Il titolo dei film di F. Fellini prodotti dopo il 1960 */
-SELECT Titolo
-FROM Film
-WHERE Regista = 'Fellini' AND AnnoProduzione > 1960
+﻿
 
-/* Il titolo e la durata dei film di fantascienza giapponesi o francesi prodotti dopo il 1990 */
-SELECT f.Titolo, f.Durata
-FROM Film f
-WHERE f.Genere = 'Fantascienza' 
-AND (f.Nazionalita = 'FRA' OR f.Nazionalita = 'JPN')
-AND f.AnnoProduzione > 1990
-
-/* Il titolo dei film di fantascienza giapponesi prodotti dopo il 1990 oppure francesi */
-SELECT f.Titolo
-FROM Film f
-WHERE f.Genere = 'Fantascienza' AND ((f.Nazionalita = 'JPN' AND f.AnnoProduzione > 1990) OR f.Nazionalita = 'FRA')
-
-/* I titoli dei film dello stesso regista di “Casablanca” */
-SELECT f.Titolo
-FROM Film f
-WHERE f.Regista = (SELECT f1.Regista FROM Film f1 WHERE f1.Titolo = 'Casablanca') /* Si possono mettere piu' query*/
-
-/* Il titolo ed il genere dei film proiettati il giorno di Natale 2004 */
 SELECT DISTINCT f.Titolo, f.Genere
 FROM Film f, Proiezioni p
 WHERE f.CodFilm = p.CodFilm AND p.DataProiezione = '20041225'
