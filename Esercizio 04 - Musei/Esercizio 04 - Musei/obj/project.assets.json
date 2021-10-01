@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 04 - Musei\\Esercizio 04 - Musei\\Esercizio 04 - Musei.csproj",
+      "projectUniqueName": "C:\\Users\\matte\\Desktop\\Esercizio 04 - Musei\\Esercizio 04 - Musei\\Esercizio 04 - Musei.csproj",
       "projectName": "Esercizio 04 - Musei",
-      "projectPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 04 - Musei\\Esercizio 04 - Musei\\Esercizio 04 - Musei.csproj",
+      "projectPath": "C:\\Users\\matte\\Desktop\\Esercizio 04 - Musei\\Esercizio 04 - Musei\\Esercizio 04 - Musei.csproj",
       "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 04 - Musei\\Esercizio 04 - Musei\\obj\\",
+      "outputPath": "C:\\Users\\matte\\Desktop\\Esercizio 04 - Musei\\Esercizio 04 - Musei\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",

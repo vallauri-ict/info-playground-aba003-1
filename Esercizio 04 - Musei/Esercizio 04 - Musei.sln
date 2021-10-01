@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio 04 - Musei", "Esercizio 04 - Musei\Esercizio 04 - Musei.csproj", "{AC7FDE9C-818D-446A-998B-F5F516AD48C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esercizio 04 - Musei", "Esercizio 04 - Musei\Esercizio 04 - Musei.csproj", "{C6A5828E-BB30-4837-9A18-16A8AEC65EE3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AC7FDE9C-818D-446A-998B-F5F516AD48C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AC7FDE9C-818D-446A-998B-F5F516AD48C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AC7FDE9C-818D-446A-998B-F5F516AD48C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AC7FDE9C-818D-446A-998B-F5F516AD48C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A5828E-BB30-4837-9A18-16A8AEC65EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A5828E-BB30-4837-9A18-16A8AEC65EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A5828E-BB30-4837-9A18-16A8AEC65EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A5828E-BB30-4837-9A18-16A8AEC65EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {7A279C39-EB53-4618-99D7-012E94EF43D0}
+		SolutionGuid = {E32B7CA9-5918-4C88-ADFE-E6B6BDDFD865}
 	EndGlobalSection
 EndGlobal
