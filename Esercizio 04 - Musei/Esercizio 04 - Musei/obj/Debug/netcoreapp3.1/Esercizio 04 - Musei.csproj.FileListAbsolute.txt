@@ -1,0 +1,13 @@
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\bin\Debug\netcoreapp3.1\Esercizio 04 - Musei.exe
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\bin\Debug\netcoreapp3.1\Esercizio 04 - Musei.deps.json
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\bin\Debug\netcoreapp3.1\Esercizio 04 - Musei.runtimeconfig.json
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\bin\Debug\netcoreapp3.1\Esercizio 04 - Musei.runtimeconfig.dev.json
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\bin\Debug\netcoreapp3.1\Esercizio 04 - Musei.dll
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\bin\Debug\netcoreapp3.1\Esercizio 04 - Musei.pdb
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.csprojAssemblyReference.cache
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.AssemblyInfoInputs.cache
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.AssemblyInfo.cs
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.csproj.CoreCompileInputs.cache
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.dll
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.pdb
+C:\Users\matte\Desktop\info-playground-aba003-1\Esercizio 04 - Musei\Esercizio 04 - Musei\obj\Debug\netcoreapp3.1\Esercizio 04 - Musei.genruntimeconfig.cache
