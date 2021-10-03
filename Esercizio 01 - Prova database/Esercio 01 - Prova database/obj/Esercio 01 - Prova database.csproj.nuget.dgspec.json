@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matte\\Desktop\\Esercio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj": {}
+    "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matte\\Desktop\\Esercio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj": {
+    "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matte\\Desktop\\Esercio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj",
+        "projectUniqueName": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj",
         "projectName": "Esercio 01 - Prova database",
-        "projectPath": "C:\\Users\\matte\\Desktop\\Esercio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj",
+        "projectPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 01 - Prova database\\Esercio 01 - Prova database\\Esercio 01 - Prova database.csproj",
         "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matte\\Desktop\\Esercio 01 - Prova database\\Esercio 01 - Prova database\\obj\\",
+        "outputPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 01 - Prova database\\Esercio 01 - Prova database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
