@@ -1,29 +1,36 @@
-﻿/*per ciascun museo di londra il numero di opere di artisti italiani*/
-SELECT m.NomeM,COUNT (*) as numeroOpere
-FROM Artisti a, Musei m,Opere o 
-WHERE m.Citta='Londra' AND 
-a.Nazionalita='IT' AND 
-a.NomeA=o.NomeA AND m.NomeM=o.NomeM 
-GROUP BY m.NomeM
+﻿/*il codice e il titolo delle opere di tiziano conservate al national gallery*/
+select o.Codice, o.Titolo from
+Opere o where o.NomeA='Tiziano' and o.NomeM='National gallery'
 
-SELECT * FROM Artisti a, Musei m, Opere o
-WHERE a.NomeA =o.NomeA AND m.NomeM =o.NomeM AND
-m.Citta='Londra' AND a.Nazionalita='IT'
+/*il nome dell artista e il titolo delle sue opere conervate al national gallery o agli uffizi*/
+select o.NomeA, o.Titolo
+from Opere o 
+where o.NomeM = 'Uffizi' or o.NomeM = 'National gallery'
 
-/*il nome dei musei di londra che non hanno opere di tiziano*/  
-SELECT  m.NomeM
-FROM  Musei m 
-WHERE m.Citta='Londra' AND NOT EXISTS(SELECT * FROM Opere o WHERE o.NomeA='Tiziano' AND o.NomeM=m.NomeM);
+/*il nome e il titolo delle opere conservati nei musei di florence*/
+select distinct o.NomeA,o.Titolo from
+Opere o , Musei m 
+where exists(select * from Musei m where m.Citta='Firenze' and m.NomeM=o.NomeM);
 
-/*il nome dei musei di londra che solo hanno opere di tiziano*/
-SELECT m.NomeM
-FROM Musei m 
-WHERE m.Citta='Londra' AND NOT EXISTS(SELECT * FROM Opere o WHERE o.NomeA<>'Tiziano' AND o.NomeM=m.NomeM)
+/*le città in cui sono conservate le opere di picasso*/
+select m.Citta from
+Opere o , Musei m 
+where m.NomeM=o.NomeM and o.NomeA='Picasso'
 
-/*per ciascun artista il nome e il nuemro delle sua opere conservate agli uffizi*/
-SELECT o.NomeA , count(*) as numeroOpere
-FROM Opere o 
-WHERE o.NomeM='Uffizi'
-GROUP BY o.NomeA
+select m.Citta from  Musei m  where exists(select * from Opere o where m.NomeM=o.NomeM and o.NomeA='Picasso' );
 
-/*i musei che conservano almeno 20 opere di musei italiani*/
+/*il codice e il titolo delle opere di tiziano conservate a londra*/
+select o.Codice,o.Titolo 
+from  Opere o ,Musei m
+where o.NomeA='Tiziano'and  o.NomeM = m.NomeM and m.Citta='Londra'  
+
+/*il nome e il titolo deglle opere e degli autori spagnoli conservati neiumusei di firenze */
+select o.NomeA, o.Titolo from Artisti a, Musei m , Opere o
+where m.NomeM=o.NomeM and o.NomeA=a.NomeA and m.Citta='Firenze' and a.Nazionalita='Spa'
+
+/*il codice e titolo delle opere di artisti italiani conservate a londra e in cui è rappresentata la madonna*/
+select o.Codice,o.Titolo 
+ from Musei m, Artisti a, Personaggi p, Opere o where o.NomeM=m.NomeM and o.NomeA=a.NomeA  and p.Codice=o.Codice and a.Nazionalita='Ita'and m.Citta='Londra'and p.Personaggio='Madonna'
+
+
+
