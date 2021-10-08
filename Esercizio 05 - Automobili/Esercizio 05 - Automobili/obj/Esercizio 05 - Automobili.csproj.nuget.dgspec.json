@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matte\\Desktop\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj": {}
+    "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matte\\Desktop\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj": {
+    "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matte\\Desktop\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj",
+        "projectUniqueName": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj",
         "projectName": "Esercizio 05 - Automobili",
-        "projectPath": "C:\\Users\\matte\\Desktop\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj",
+        "projectPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili.csproj",
         "packagesPath": "C:\\Users\\matte\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matte\\Desktop\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\obj\\",
+        "outputPath": "C:\\Users\\matte\\Desktop\\info-playground-aba003-1\\Esercizio 05 - Automobili\\Esercizio 05 - Automobili\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\matte\\AppData\\Roaming\\NuGet\\NuGet.Config",
