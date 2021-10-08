@@ -17,7 +17,23 @@ and a.Targa= autCoinv.Targa and ass.Nome='San Paolo' and s.DataSinistro='2020-02
 select ass.Nome,ass.Sede, COUNT(*) from Assicurazioni ass, Automobile a where a.CodAss=ass.CodAss group by ass.Nome , ass.Sede;
 
 /*Per ciascuna auto “Fiat”, la targa dell’auto ed il numero di sinistri in cui è stata coinvolta*/
-select a.Targa, COUNT(*) from Automobile a,Sinistro s , AutoCoinvolte autoCoinvolte where a.Targa=autoCoinvolte.Targa and autoCoinvolte.CodS=s.CodS and a.Marca='Fiat' group by a.Targa
+select a.Targa, COUNT(*) 
+from Automobile a, AutoCoinvolte autoCoinvolte
+where a.Targa=autoCoinvolte.Targa
+and a.Marca='Fiat' 
+group by a.Targa
 
 /*Per ciascuna auto coinvolta in più di un sinistro, la targa dell’auto, il nome dell’ Assicurazione
 ed il totale dei danni riportati*/
+select a.Targa,ass.Nome,sum(autoCoinv.ImportoDelDanno) as danni from Automobile a, Assicurazioni ass, AutoCoinvolte autoCoinv where a.CodAss=ass.CodAss and a.Targa=autoCoinv.Targa 
+group by a.Targa,ass.Nome having COUNT(*)>1
+
+/*CodF e Nome di coloro che possiedono più di un’auto*/
+select a.CodF as CodiceProprietario,p.Nome as Nome from Automobile a , Proprietari p where p.CodF=a.CodF group by a.CodF,p.Nome having count(*)>1;
+
+/*La targa delle auto che non sono state coinvolte in sinistri dopo il 20/01/01*/
+select a.Targa from Automobile a where not exists(select *  from  AutoCoinvolte autoCoinvolte, Sinistro s where a.Targa=autoCoinvolte.Targa and s.CodS=autoCoinvolte.CodS and s.DataSinistro>'2008-02-28' )
+
+/*Il codice dei sinistri in cui non sono state coinvolte auto con cilindrata inferiore a 2000 cc*/
+select ass.CodS from Automobile a, AutoCoinvolte ass where a.Targa=ass.Targa and a.Cilindrata>2000;
+
